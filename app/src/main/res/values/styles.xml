@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/_6</item>
+        <item name="android:statusBarColor">@color/orange_1</item>
+        <item name="backgroundColor">@color/orange_4</item>
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+
+        <item name="textColor">@color/black</item>
+        <item name="iconColor">@color/black</item>
+        <item name="unChecked">@color/white_transparent_50</item>
+        <item name="tr25">@color/transparent_25</item>
+        <item name="mainColor">@color/orange_2</item>
+        <item name="Background">@color/orange_4</item>
+        <item name="card">@color/white</item>
+        <item name="headViewColor">@color/orange_1</item>
+
+        <item name="line">@color/line_dark</item>
+        <item name="event_count_circle">@color/transparent_25</item>
+    </style>
+
+
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_1</item>
+        <item name="android:statusBarColor">@color/_1</item>
+        <item name="backgroundColor">@color/_3</item>
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+
+        <item name="textColor">@color/_5</item>
+        <item name="iconColor">@color/_5</item>
+        <item name="unChecked">@color/white_transparent_50</item>
+        <item name="tr25">@color/white_transparent_25</item>
+        <item name="mainColor">@color/_2</item>
+        <item name="Background">@color/_3</item>
+        <item name="card">@color/_4</item>
+        <item name="headViewColor">@color/_1</item>
+
+        <item name="line">@color/line_light</item>
+        <item name="event_count_circle">@color/_7</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">?attr/textColor</item>
+        <item name="android:background">?attr/card</item>
+        <item name="android:textColorPrimary">?attr/textColor</item>
+    </style>
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/orange_1</item>
+        <item name="android:colorForeground">?attr/line</item>
+    </style>
+
+    <style name="WindowTransitionAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+</resources>

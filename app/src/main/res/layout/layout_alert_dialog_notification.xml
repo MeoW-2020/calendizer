@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/card">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/mainColor"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="20sp"
+        android:text="@string/notify"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="2dp"/>
+
+    <RadioGroup
+        android:id="@+id/AlertDialogLayout_RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/AlertDialogLayout_Notification_RadioButton_10minBefore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_minutes_before"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor" />
+
+        <RadioButton
+            android:id="@+id/AlertDialogLayout_Notification_RadioButton_1hourBefore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_hour_before"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor" />
+
+        <RadioButton
+            android:id="@+id/AlertDialogLayout_Notification_RadioButton_1dayBefore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_day_before"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor" />
+
+        <RadioButton
+            android:id="@+id/AlertDialogLayout_Notification_RadioButton_AtTheTimeOfEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/at_the_time_of_event"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/Background"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/mainColor"
+        app:logo="@drawable/logo_events"
+        app:title="@string/upcoming_events"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <ImageButton
+            android:id="@+id/UpcomingEventsFragment_ImageButton_Period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_30" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/line"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/headViewColor"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/UpcomingEventsFragment_TextView_Period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_7_days"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/UpcomingEventsFragment_RecyclerView_Events"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp" />
+
+
+            </ScrollView>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

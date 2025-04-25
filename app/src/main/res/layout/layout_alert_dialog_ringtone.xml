@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/card">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/mainColor"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="20sp"
+        android:text="@string/ringtone"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="2dp" />
+
+    <RadioGroup
+        android:id="@+id/AlertDialogLayout_RingtoneRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_1"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_2"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_3"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_4"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_5"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_6"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_7"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_8"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+
+        <RadioButton
+            android:id="@+id/r9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ringtone_9"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"
+            android:buttonTint="?attr/textColor"/>
+    </RadioGroup>
+
+</LinearLayout>

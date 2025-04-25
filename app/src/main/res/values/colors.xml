@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="orange_1">#F57C00</color>
+    <color name="orange_2">#FF9800</color>
+    <color name="orange_4">#FFEDB2</color>
+
+    <color name="white_transparent_50">#80FFFFFF</color>
+    <color name="transparent_25">#40000000</color>
+    <color name="white_transparent_25">#40FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="_1">#292B2F</color>
+    <color name="_2">#2F3136</color>
+    <color name="_3">#36393F</color>
+    <color name="_4">#42464d</color>
+    <color name="_5">#dcddde</color>
+    <color name="_6">#35D4A0</color>
+    <color name="_7">#686b6f</color>
+
+    <color name="line_dark">#7F4C00</color>
+    <color name="line_light">#F2DCDDDE</color>
+
+    <color name="__1">#F44336</color>
+    <color name="__1_tr50">#80F54336</color>
+    <color name="__2">#E91E63</color>
+    <color name="__3">#9C27B0</color>
+    <color name="__4">#673AB7</color>
+    <color name="__5">#3F51B5</color>
+    <color name="__6">#2196F3</color>
+    <color name="__7">#03A9F4</color>
+    <color name="__8">#00BCD4</color>
+    <color name="__9">#009688</color>
+    <color name="__10">#4CAF50</color>
+    <color name="__11">#8BC34A</color>
+    <color name="__12">#CDDC39</color>
+    <color name="__13">#FFEB3B</color>
+    <color name="__14">#FFC107</color>
+    <color name="__15">#FF9800</color>
+    <color name="__16">#FF5722</color>
+    <color name="__17">#795548</color>
+    <color name="__18">#9E9E9E</color>
+    <color name="__19">#607D8B</color>
+    <color name="__20">#424242</color>
+
+</resources>

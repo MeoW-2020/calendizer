@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Календайзер</string>
+    <string name="current_date">Текущая дата</string>
+    <string name="mon">ПН</string>
+    <string name="tue">ВТ</string>
+    <string name="wed">СР</string>
+    <string name="thu">ЧТ</string>
+    <string name="fri">ПТ</string>
+    <string name="sat">СБ</string>
+    <string name="sun">ВС</string>
+    <string name="upcoming_events">Списки событий</string>
+    <string name="user_settings">Настройки по умолчанию</string>
+    <string name="calendar">Календарь</string>
+    <string name="save_event">Сохранить событие</string>
+    <string name="event_title">Название</string>
+    <string name="add_a_location">Адрес</string>
+    <string name="add_your_notes">Заметка</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="_12_00_am">12:00</string>
+    <string name="events">События</string>
+    <string name="add_event">Добавить событие</string>
+    <string name="no_event_to_display">Нет событий в этот день</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="note_color">Цвет</string>
+    <string name="send_mail">email</string>
+    <string name="today">Сегодня</string>
+    <string name="next_7_days">Следующие 7 дней</string>
+    <string name="next_30_days">Следующие 30 дней</string>
+    <string name="all_events">Все</string>
+    <string name="_10_minutes_before">За 10 минут</string>
+    <string name="_1_hour_before">За 1 час</string>
+    <string name="_1_day_before">За 1 день</string>
+    <string name="at_the_time_of_event">В момент события</string>
+    <string name="share">Поделиться</string>
+    <string name="one_time_event">Единоразовое событие</string>
+    <string name="add_notification">Добавить напоминание</string>
+    <string name="repetition">Повтор</string>
+    <string name="daily">Ежедневно</string>
+    <string name="monthly">Ежемесячно</string>
+    <string name="weekly">Еженедельно</string>
+    <string name="yearly">Ежегодно</string>
+    <string name="one_time">Один раз</string>
+    <string name="default_ringtone">Мелодия</string>
+    <string name="default_reminder_time">Время напоминания</string>
+    <string name="default_reminder_frequency">Частота напоминаний</string>
+    <string name="app_theme">Тема приложения</string>
+
+    <string name="choose_theme">Выбор темы:</string>
+    <string name="ringtone">Выбор мелодии:</string>
+    <string name="notify">Уведомлять:</string>
+
+    <string name="event_details">Детали события</string>
+    <string name="add_phone_number">Телефон</string>
+    <string name="create_event">Создать событие</string>
+    <string name="about">О приложении</string>
+
+    <string name="about_text"><b>Краткое описание:</b>\nКалендайзер — простое бесплатное приложение без рекламы, не требующее подключения к Интернету.\nИмеет интуитивно понятное управление и минимальные настройки.\nФункционал:\n● Количество событий в день — на календаре\n● Просмотр списков событий\n● Система напоминаний\n● Цветовое выделение задач\n● Отметка о выполнении\n● Особая пометка для дней рождения\n● Выбор светлой или темной темы приложения\n● Возможность поделиться событием.\n\n<b>Требуется Android:</b>\n6.0+\n\n<b>Русский интерфейс:</b>\nДа\n\n<b>Разработчик:</b>\n©MeoW Studio\n\n<b>Год создания: </b>2022\n\n<b>Версия:</b>\n1.5.22</string>
+
+    <string name="field_is_empty">Поле не может быть пустым!</string>
+    <string name="in_the_past">Невозможно установить уведомление на прошедшее время</string>
+
+    <string name="edit_warning_title">Редактирование события</string>
+    <string name="edit_warning_text">Все повторения этого события также будут отредактированы</string>
+
+    <string name="event_created">Событие создано!</string>
+    <string name="event_edited">Событие отредактировано!</string>
+
+    <string name="delete_warning_title">Удаление события</string>
+    <string name="delete_warning_text">Все повторения этого события также будут удалены\nУдалить это событие?</string>
+    <string name="event_deleted">Событие удалено!</string>
+    <string name="all_day_event">Весь день</string>
+    <string name="is_birthday">День рождения</string>
+
+    <string name="birthdays">Дни рождения</string>
+
+    <string name="done_mark">Отметка о выполнении:</string>
+
+    <string name="choose_color">Выбрать цвет</string>
+
+</resources>
