@@ -1,4 +1,4 @@
-# VKR_Мобильное приложение "Календарь-органайзер" (Календайзер)
+# Мобильное приложение "Календарь-органайзер" (Календайзер)
 
 <div style="display:flex;">
   <img alt="Календарь_Оранж_framed" src="https://user-images.githubusercontent.com/90068237/173400322-8d68e308-9eec-48df-9557-51ba9ae3dba4.png" width="30%">
